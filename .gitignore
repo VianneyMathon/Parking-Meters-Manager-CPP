@@ -1,15 +1,24 @@
-/dist/
-/build/
-/nbproject/private
-/nbproject/Makefile-Debug.mk
-/nbproject/Makefile-Release.mk
-/nbproject/Makefile-impl.mk
-/nbproject/Makefile-variables.mk
-/nbproject/Package-Debug.bash
-/nbproject/Package-Release.bash
-/source/build/
-/source/dist/
-/utilisation/dist/
-/utilisation/build/
-/TP3/BorneInterface/dist/
-/TP3/BorneInterface/build/
+# Build output
+build/
+dist/
+*.o
+*.o.d
+*.a
+
+# NetBeans generated files
+**/nbproject/private/
+.dep.inc
+
+# Qt generated files
+moc_*.cpp
+moc_predefs.h
+ui_*.h
+.qmake.stash
+**/nbproject/qt-*.mk
+
+# Doxygen output
+html/
+
+# IDE and OS files
+.idea/
+.DS_Store
